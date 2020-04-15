@@ -1,6 +1,6 @@
 #!/bin/bash/
-git clone https://github.com/Upendraj16/iphone.git
-cd iphone/appdevlp
+#git clone https://github.com/Upendraj16/iphone.git
+cd appleversion
 mvn clean install
 if [[ $? -ne 0 ]]; then
 echo "build failed"
